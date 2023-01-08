@@ -20,6 +20,7 @@ body{
     width: 100%;
     background-color: azure;
     z-index: 3;
+    margin: 0;
 }
 
 .sitename h2{
@@ -64,13 +65,13 @@ hr{
     background-color: #FFFBE9;
     text-align: center;
     position: relative;
-    padding: top 4%;
+    padding-top: 3%;
 }
 
 .section_one h1{
     font-size: 4.8rem;
     font-family: sacrament;
-    margin: 3% 0;
+    margin:2% 0;
 }
 
 .section_one p{
@@ -89,6 +90,7 @@ text-decoration: underline;
 .cloud_one{
     top: 5%;
     right: 10%;
+    
 }
 
 .cloud_two{
@@ -172,6 +174,7 @@ background-color:green;
 text-decoration: none;
 padding: 2px;
 border-radius: 10%;
+color: wheat;
 }
 /* media queries */
 @media screen and ( min-width: 700px){}
